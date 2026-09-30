@@ -43,7 +43,7 @@ function validarCampo(nombreCampo, valor) {
   }
 }
 
-function ContactForm() {
+function ContactoF() {
   const [valores, setValores] = useState(valoresIniciales)
   const [errores, setErrores] = useState({})
   const [enviando, setEnviando] = useState(false)
@@ -150,4 +150,4 @@ function ContactForm() {
   )
 }
 
-export default ContactForm
+export default ContactoF
