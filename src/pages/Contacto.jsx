@@ -1,4 +1,4 @@
-import ContactForm from '../components/ContactoF.jsx'
+import Contactform from '../components/ContactoF.jsx'
 function Contacto() {
   return (
     <div className="page">

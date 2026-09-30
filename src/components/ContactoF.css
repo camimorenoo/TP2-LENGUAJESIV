@@ -1,0 +1,77 @@
+.contact-form {
+  max-width: 480px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #2f3e46;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #52796f;
+}
+
+.contador {
+  font-size: 0.85rem;
+  color: #607d8b;
+  text-align: right;
+}
+
+.error-message {
+  color: #c0392b;
+  font-size: 0.85rem;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  background-color: #52796f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #3d5a53;
+}
+
+.contact-form button:disabled {
+  background-color: #9db4ad;
+  cursor: not-allowed;
+}
+
+.estado-envio {
+  font-size: 0.95rem;
+}
+
+.estado-ok {
+  color: #2e7d32;
+}
+
+.estado-error {
+  color: #c0392b;
+}

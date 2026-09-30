@@ -2,7 +2,6 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import './ContactoF.css'
 
-// Reemplazar por los datos de tu cuenta de EmailJS
 const SERVICE_ID = 'service_l1pdhgb'
 const TEMPLATE_ID = 'template_qyk372j'
 const PUBLIC_KEY = 'SRy4h71YQeDDaKY6P'
