@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser'
 import './ContactoF.css'
 
 const SERVICE_ID = 'service_l1pdhgb'
-const TEMPLATE_ID = 'template_qyk372j'
+const TEMPLATE_ID = 'template_6v0ht7j'
 const PUBLIC_KEY = 'SRy4h71YQeDDaKY6P'
 
 const MAX_MENSAJE = 300
